@@ -7,13 +7,13 @@
   // name your instance!
   "title": "IQUIDUS",
 
-  "address": "127.0.0.1:3001",
+  "address": "127.0.0.1:31836",
 
   // coin name
-  "coin": "Darkcoin",
+  "coin": "Bitmillion",
 
   // coin symbol
-  "symbol": "DRK",
+  "symbol": "BTM",
 
   // logo
   "logo": "/images/logo.png",
@@ -29,7 +29,7 @@
   "theme": "Cyborg",
 
   // port to listen for requests on.
-  "port" : 3001,
+  "port" : 31836,
 
   // database settings (MongoDB)
   "dbsettings": {
@@ -47,13 +47,13 @@
   // wallet settings
   "wallet": {
     "host": "localhost",
-    "port": 9332,
-    "user": "darkcoinrpc",
-    "pass": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
+    "port": 31836,
+    "user": "rpc_user",
+    "pass": "8cde5e64e7297b1cb4c495d1a"
   },
 
   // confirmations
-  "confirmations": 40,
+  "confirmations": 3,
 
   // language settings
   "locale": "locale/en.json",
@@ -121,7 +121,7 @@
 
   //genesis
   "genesis_tx": "65f705d2f385dc85763a317b3ec000063003d6b039546af5d8195a5ec27ae410",
-  "genesis_block": "b2926a56ca64e0cd2430347e383f63ad7092f406088b9b86d6d68c2a34baef51",
+  "genesis_block": "cea3f2d338de0a248bb94a753501e5ce790e69341aafebc7f23e44a939ef3762",
 
   //heavy (enable/disable additional heavy features)
   "heavy": false,
